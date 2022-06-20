@@ -24,12 +24,12 @@ public class Product {
 	public void setPrice(Double price) {
 		this.price = price;
 	}
-
+	
 	public String priceTag() {
 		return name
 				+ " $ "
 				+ String.format("%.2f", price);
 	}
 	
-		
+	
 }
